@@ -5,7 +5,7 @@ require('./SocketService')(http)
 
 class App {
     constructor(port) {
-        this.port = port ? port : 80
+        this.port = port ? port : port
     }
 
     start() {
